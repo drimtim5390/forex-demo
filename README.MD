@@ -28,7 +28,7 @@ curl --request POST \
 - amount - optional(default - 1.0). Amount used in calculation of exchange rates
 
 
-#### Response Sample
+### Response Sample
 
 ```json
 {
