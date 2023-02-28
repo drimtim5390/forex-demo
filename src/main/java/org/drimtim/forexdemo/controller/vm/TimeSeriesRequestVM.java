@@ -19,6 +19,8 @@ public class TimeSeriesRequestVM {
 
     private Double amount;
 
+    public TimeSeriesRequestVM() {}
+
     public TimeSeriesRequestVM(LocalDate startDate, LocalDate endDate, String base, List<String> targetCurrencies, Double amount) {
         this.startDate = startDate;
         this.endDate = endDate;
