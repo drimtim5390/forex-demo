@@ -1,5 +1,5 @@
 # Basic Currencies API
-Use https://api.exchangerate.host service.
+Using https://api.exchangerate.host service.
 
 ### Request Sample
 #### GET
