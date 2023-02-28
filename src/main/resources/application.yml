@@ -1,0 +1,7 @@
+exchange:
+  rates:
+    api:
+      host: https://api.exchangerate.host
+logging:
+  level:
+    web: debug
