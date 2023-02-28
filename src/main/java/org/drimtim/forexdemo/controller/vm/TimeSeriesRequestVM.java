@@ -27,6 +27,13 @@ public class TimeSeriesRequestVM {
         this.amount = amount;
     }
 
+    public TimeSeriesRequestVM(LocalDate startDate, LocalDate endDate) {
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.baseCurrency = "USD";
+        this.amount = 1D;
+    }
+
     public LocalDate getStartDate() {
         return startDate;
     }
